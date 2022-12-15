@@ -541,7 +541,7 @@ footer {
 /*INICIO QUIENES SOMOS*/
 
 .fondo__qs {
-    background-image: url(./assets/img/fondos/fondo4.jpg);
+    background-image: url(/assets/img/fondos/fondo4.jpg);
 }
 
 .titulo--blanco {
