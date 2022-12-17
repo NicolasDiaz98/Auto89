@@ -22,6 +22,39 @@
 <!-- INICIO ENCABEZADO -->
 
 <header>
+  <nav class="row justify-content-between align-items-center m-4">
+    <div class="col-4">
+      <a href="index.html">
+        <img class="logo img-fluid" src="./assets/img/logo.png" alt="Logo">
+      </a>
+    </div>
+    <div class="col-4">
+      <button class="boton__nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img class="menu__img" src="./assets/img/menu.png" alt="Menu"></button>
+    </div>
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h3 class="offcanvas-title titulo--h3" id="offcanvasWithBothOptionsLabel">Menú</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav__barra">
+          <li><a class="nav__a" href="./index.html">Inicio</a></li>
+          <li><a class="nav__a" href="./pages/servicios.html">Servicios</a></li>
+          <li><a class="nav__a" href="./pages/galeria.html">Galería</a></li>
+          <li><a class="nav__a" href="./pages/quienes-somos.html">Quienes somos</a></li>
+          <li><a class="nav__a" href="./pages/contacto.html">Contacto</a></li>
+      </ul>
+
+      <img src="./assets/img/logoBlanco.png" alt="Logo blanco">
+      <p class="footer__p">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
+    
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<!-- <header>
     <nav class="nav">
         <a href="index.html">
             <img class="logo" src="./assets/img/logo.png" alt="Logo">
@@ -41,16 +74,17 @@
         </div>
         
     </nav>
-</header>
+</header> -->
 
 <!-- FINAL ENCABEZADO -->
 
 
 <!-- INICIO SLIDER -->
+
 <main>
     <section>
         <div class="slider">
-            <video src="./assets/videos/Taller auto 89.mp4" type="video/mp4" muted autoplay></video>
+            <img class="img-fluid" src="./assets/img/slider.png" alt="Slider">
         </div>
     </section>
     
@@ -58,14 +92,15 @@
     
 
 <!-- INICIO MAP-CONTACTO -->
+
     <section>
         <div class="datos">
             <div class="datos__map">
-                <h2>Dónde Estamos</h2>
+                <h2 class="titulo--h2 text-center m-5">Dónde Estamos</h2>
                 <iframe class="datos__img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.233237510331!2d2.18405311572421!3d41.41245537926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3285bdb755d%3A0xdf28645780ca59d4!2sAuto%2089!5e0!3m2!1ses-419!2suy!4v1668723501366!5m2!1ses-419!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="datos__contacto">
-                <h2>Contacto</h2>
+                <h2 class="titulo--h2 text-center m-5">Contacto</h2>
                 <div class="datos__info">
                     <ul>
                         <li><img class="datos__infoImg" src="./assets/img/ubicacion.gif"  alt="Ubicación">C. Nació, 5, 08026 Barcelona, España</li>
@@ -89,6 +124,7 @@
 
 
 <!-- INICIO FOOTER -->
+
 <footer>
     <div class="footer">
         <ul>
@@ -108,6 +144,7 @@
 
     <p class="footer__p">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
 </footer>
+
 <!-- FINAL FOOTER -->
 
 
