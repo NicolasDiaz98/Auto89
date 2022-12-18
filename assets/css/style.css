@@ -291,6 +291,19 @@ footer {
     color: var(--rojo);
     font-size: 16px;
 }
+@media screen and (max-width: 400px) {
+    .contenedor__redes {
+        display: flex;
+        width: 300px;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .redes__img {
+        height: 80px;
+        width: 80px;
+    }
+}
 
 
 /* 
