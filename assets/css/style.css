@@ -62,21 +62,34 @@ footer {
     font-weight: bold;
 }
 
+.nav__barra > li {
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.nav__a:hover {
+    color: var(--negro);
+}
+
 .offcanvas-body {
     background-color: rgb(218, 0, 0);
     border-top: solid 1px var(--negro);
 }
 
-.footer__p {
-    margin-top: 80px;
-    font-size: 20px;
-    text-align: center;
+.footer__nav {
+    margin-top: 40px;
+    font-size: 16px;
     color: var(--blanco);
 }
-    
-.footer__p > a {
-    color: var(--rojo);
-    font-size: 20px;
+
+.logo--blanco {
+    margin-top: 100px;
+    height: 80px;
+}
+
+.footer__nav > a {
+    color: var(--negro);
+    font-size: 16px;
 }
 /* .bar-menu {
     width: 90%;
@@ -206,6 +219,19 @@ footer {
     font-weight: bold;
 }
 
+.datos__img {
+    height: 500px;
+}
+
+.datos__infoImg {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.datos__info > ul > li {
+    font-size: 16px;
+}
 /* .datos {
     display: flex;
     flex-wrap: wrap;
@@ -220,10 +246,7 @@ footer {
     font-size: 50px;
 }
 
-.datos__img {
-    width: 700px;
-    height: 600px;
-}
+
 
 .datos__contacto > h2 {
     width: 500px;
@@ -238,36 +261,41 @@ footer {
     margin-bottom: 50px;
     font-size: 25px;
 }
-
-
-.datos__infoImg {
-    width: 64px;
-    height: 64px;
-    margin-right: 55px;
-} */
+ */
 
 /*FIN MAP-CONTACTO*/
 
 
 /*INICIO FOOTER*/
 
-/* footer {
+footer {
     background-color: var(--azuloscuro);
 }
 
-.footer {
-    display: flex;
-}
-
-.footer > ul > li > a {
+.footer__a {
     font-size: 16px;
-    text-decoration: underline;
-    margin-left: 16px;
+    line-height: 45px;
     color: var(--blanco);
-    }
+}
 
 .footer  ul  li  a:hover {
     color: var(--rojo);
+}
+
+.footer__p {
+    font-size: 16px;
+    color: var(--blanco);
+}
+
+.footer__p > a {
+    color: var(--rojo);
+    font-size: 16px;
+}
+
+
+/* 
+.footer {
+    display: flex;
 }
 
 .footer > ul > li {
@@ -299,17 +327,9 @@ footer {
     height: 120px;
 }
 
-.footer__p {
-    margin-top: 80px;
-    font-size: 20px;
-    text-align: center;
-    color: var(--blanco);
-}
 
-.footer__p > a {
-    color: var(--rojo);
-    font-size: 20px;
-} */
+
+ */
 
 /*FIN FOOTER*/
 

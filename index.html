@@ -31,13 +31,13 @@
     <div class="col-4">
       <button class="boton__nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img class="menu__img" src="./assets/img/menu.png" alt="Menu"></button>
     </div>
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas offcanvas-start p-0" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <div class="offcanvas-header">
         <h3 class="offcanvas-title titulo--h3" id="offcanvasWithBothOptionsLabel">Menú</h3>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="nav__barra">
+        <ul class="nav__barra p-0">
           <li><a class="nav__a" href="./index.html">Inicio</a></li>
           <li><a class="nav__a" href="./pages/servicios.html">Servicios</a></li>
           <li><a class="nav__a" href="./pages/galeria.html">Galería</a></li>
@@ -45,8 +45,8 @@
           <li><a class="nav__a" href="./pages/contacto.html">Contacto</a></li>
       </ul>
 
-      <img src="./assets/img/logoBlanco.png" alt="Logo blanco">
-      <p class="footer__p">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
+      <img class="logo--blanco img-fluid" src="./assets/img/logoBlanco.png" alt="Logo blanco">
+      <p class="footer__nav">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
     
       </div>
     </div>
@@ -94,7 +94,7 @@
 <!-- INICIO MAP-CONTACTO -->
 
     <section>
-        <div class="datos">
+        <div class="datos container">
             <div class="datos__map">
                 <h2 class="titulo--h2 text-center m-5">Dónde Estamos</h2>
                 <iframe class="datos__img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.233237510331!2d2.18405311572421!3d41.41245537926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3285bdb755d%3A0xdf28645780ca59d4!2sAuto%2089!5e0!3m2!1ses-419!2suy!4v1668723501366!5m2!1ses-419!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -102,7 +102,7 @@
             <div class="datos__contacto">
                 <h2 class="titulo--h2 text-center m-5">Contacto</h2>
                 <div class="datos__info">
-                    <ul>
+                    <ul class="p-0">
                         <li><img class="datos__infoImg" src="./assets/img/ubicacion.gif"  alt="Ubicación">C. Nació, 5, 08026 Barcelona, España</li>
                         
                         <li><img class="datos__infoImg" src="./assets/img/telefono.gif"  alt="Teléfono">934363330</li>
@@ -126,23 +126,29 @@
 <!-- INICIO FOOTER -->
 
 <footer>
-    <div class="footer">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/servicios.html">Servicios</a></li>
-            <li><a href="./pages/galeria.html">Galería</a></li>
-            <li><a href="./pages/quienes-somos.html">Quienes Somos</a></li>
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-        </ul>
-        <div class="redes">
-                <a class="bounce-top"  href="https://www.facebook.com/TallerAuto89"><img src="./assets/img/facebook.png" alt="Facebook"></a>
-                <a class="bounce-top"  href="https://www.instagram.com/tallerauto89/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
-                <a class="bounce-top"  href="https://twitter.com/tallerauto89"><img src="./assets/img/twitter.png" alt="Twitter"></a>
-                <a class="bounce-top"  href="https://www.linkedin.com/in/taller-89-606b5590/"><img src="./assets/img/linkedin.png" alt="LinkedIn"></a>
+    <div class="footer mt-5 row">
+        <div class="col-4 p-0">
+            <ul>
+                <li><a class="footer__a" href="./index.html">Inicio</a></li>
+                <li><a class="footer__a" href="./pages/servicios.html">Servicios</a></li>
+                <li><a class="footer__a" href="./pages/galeria.html">Galería</a></li>
+                <li><a class="footer__a" href="./pages/quienes-somos.html">Quienes Somos</a></li>
+                <li><a class="footer__a" href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </div>    
+        <div class="redes d-flex flex-column col-6 justify-content-center align-items-center">
+            <div>
+                <a href="https://www.facebook.com/TallerAuto89"><img class="p-3" src="./assets/img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/tallerauto89/"><img class="p-3" src="./assets/img/instagram.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <a href="https://twitter.com/tallerauto89"><img class="p-3" src="./assets/img/twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/taller-89-606b5590/"><img class="p-3" src="./assets/img/linkedin.png" alt="LinkedIn"></a>
+            </div>    
         </div>
     </div>
 
-    <p class="footer__p">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
+    <p class="footer__p text-center mt-5 mb-1">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
 </footer>
 
 <!-- FINAL FOOTER -->
