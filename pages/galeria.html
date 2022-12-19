@@ -20,28 +20,51 @@
 <body>
     
 <!-- INICIO ENCABEZADO -->
+
 <header>
-    <nav class="nav">
+    <nav class="nav container-fluid row justify-content-between align-items-center m-4">
+      <div class="col-4 col-xl-3">
         <a href="../index.html">
-            <img class="logo" src="../assets/img/logo.png" alt="Logo">
+          <img class="logo img-fluid" src="../assets/img/logo.png" alt="Logo">
         </a>
-
-        <div class="bar-menu">
-            <h2>Menú</h2>
-            <img class="bar-img" src="../assets/img/bar-menu.png" alt="Menu">
-
-            <ul class="nav__barra">
-                <li><a class="nav__a" href="../index.html">Inicio</a></li>
-                <li><a class="nav__a" href="./servicios.html">Servicios</a></li>
-                <li><a class="nav__a" href="./galeria.html">Galería</a></li>
-                <li><a class="nav__a" href="./quienes-somos.html">Quienes somos</a></li>
-                <li><a class="nav__a" href="./contacto.html">Contacto</a></li>
-            </ul>
+      </div>
+      <div class="container__boton col-4">
+        <button class="boton__nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img class="menu__img" src="../assets/img/menu.png" alt="Menu"></button>
+      </div>
+      <div class="offcanvas offcanvas-start p-0" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title titulo--h3" id="offcanvasWithBothOptionsLabel">Menú</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        
+        <div class="offcanvas-body">
+          <ul class="nav__barra p-0">
+            <li><a class="nav__a" href="../index.html">Inicio</a></li>
+            <li><a class="nav__a" href="./servicios.html">Servicios</a></li>
+            <li><a class="nav__a" href="./galeria.html">Galería</a></li>
+            <li><a class="nav__a" href="./quienes-somos.html">Quienes somos</a></li>
+            <li><a class="nav__a" href="./contacto.html">Contacto</a></li>
+        </ul>
+  
+        <img class="logo--blanco img-fluid" src="../assets/img/logoBlanco.png" alt="Logo blanco">
+        <p class="p__nav">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
+      
+        </div>
+      </div>
+      
+      <div class="bar-menu col-xl-9">
+          <ul class="nav__barra--grande d-flex justify-content-evenly align-items-center">
+              <li><a class="nav__a--grande" href="../index.html">Inicio</a></li>
+              <li><a class="nav__a--grande" href="./servicios.html">Servicios</a></li>
+              <li><a class="nav__a--grande" href="./galeria.html">Galería</a></li>
+              <li><a class="nav__a--grande" href="./quienes-somos.html">Quienes somos</a></li>
+              <li><a class="nav__a--grande" href="./contacto.html">Contacto</a></li>
+          </ul>
+      </div>
+  
     </nav>
-</header>
-<!-- FINAL ENCABEZADO -->
+  </header>
+  
+  <!-- FINAL ENCABEZADO -->
 
 
 <!-- INICIO GALERIA -->
@@ -87,25 +110,33 @@
 
 
 <!-- INICIO FOOTER -->
+
 <footer>
-    <div class="footer">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./servicios.html">Servicios</a></li>
-            <li><a href="./galeria.html">Galería</a></li>
-            <li><a href="./quienes-somos.html">Quienes Somos</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-        <div class="redes">
-            <a class="bounce-top"  href="https://www.facebook.com/TallerAuto89"><img src="../assets/img/facebook.png" alt="Facebook"></a>
-            <a class="bounce-top"  href="https://www.instagram.com/tallerauto89/"><img src="../assets/img/instagram.png" alt="Instagram"></a>
-            <a class="bounce-top"  href="https://twitter.com/tallerauto89"><img src="../assets/img/twitter.png" alt="Twitter"></a>
-            <a class="bounce-top"  href="https://www.linkedin.com/in/taller-89-606b5590/"><img src="../assets/img/linkedin.png" alt="LinkedIn"></a>
+    <div class="footer container mt-5 row ">
+        <div class="col-4 p-0">
+            <ul>
+                <li><a class="footer__a" href="../index.html">Inicio</a></li>
+                <li><a class="footer__a" href="./servicios.html">Servicios</a></li>
+                <li><a class="footer__a" href="./galeria.html">Galería</a></li>
+                <li><a class="footer__a" href="./quienes-somos.html">Quienes Somos</a></li>
+                <li><a class="footer__a" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>    
+        <div class="redes col-6 d-flex flex-column justify-content-center align-items-center col-xl-8">
+            <div class="contenedor__redes">
+                <a href="https://www.facebook.com/TallerAuto89"><img class="p-2 redes__img" src="../assets/img/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/tallerauto89/"><img class="p-2 redes__img" src="../assets/img/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="contenedor__redes">
+                <a href="https://twitter.com/tallerauto89"><img class="p-2 redes__img" src="../assets/img/twitter.png" alt="Twitter"></a>
+                <a href="https://www.linkedin.com/in/taller-89-606b5590/"><img class="p-2 redes__img" src="../assets/img/linkedin.png" alt="LinkedIn"></a>
+            </div>    
         </div>
     </div>
 
-    <p class="footer__p">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
+    <p class="footer__p text-center mt-5 mb-1">© <a href="#">auto89.es</a>, Todos los derechos reservados.</p>
 </footer>
+
 <!-- FINAL FOOTER -->
 
 

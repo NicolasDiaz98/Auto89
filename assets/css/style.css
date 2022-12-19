@@ -95,7 +95,7 @@ footer {
     height: 80px;
 }
 
-.footer__nav > a {
+.p__nav > a {
     color: var(--negro);
     font-size: 16px;
 }
