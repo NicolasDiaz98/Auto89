@@ -443,7 +443,9 @@ footer {
 
 /*INICIO GALERIA*/
 
-.galeria {
+
+
+/* .galeria {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 200px;
@@ -492,7 +494,7 @@ footer {
     height: 200px;
     margin: 20px;
     margin: 30px auto;
-}
+} */
 
 /*FIN GALERIA*/
 
@@ -500,7 +502,7 @@ footer {
 /*INICIO QUIENES SOMOS*/
 
 .fondo__qs {
-    background-image: url(./assets/img/fondos/fondo4.jpg);
+    background-image: url(../img/fondos/fondo4.jpg);
 }
 
 .titulo--blanco {
