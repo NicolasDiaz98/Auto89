@@ -46,11 +46,15 @@ footer {
 
 /*INICIO ENCABEZADO*/
 
+.nav {
+    width: 95%;
+}
+
 .boton__nav {
     background-color: var(--blanco);
     border: none;
+    margin-right: 0;
 }
-
 
 .menu__img {
     height: 64px;
@@ -91,6 +95,7 @@ footer {
     color: var(--negro);
     font-size: 16px;
 }
+
 /* .bar-menu {
     width: 90%;
 }
@@ -168,11 +173,18 @@ footer {
 
 /*INICIO SLIDER*/
 
-/* .slider {
-    width: 100%;
-    margin-bottom: 80px;
+@media screen and (max-width: 950px) {
+    .slider--grande {
+        display: none;
+    }
 }
 
+@media screen and (min-width: 950px) {
+    .slider {
+        display: none;
+    }
+}
+/* 
 .slider > video {
     width: 100%;
     object-fit: contain;
