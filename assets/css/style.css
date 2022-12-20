@@ -271,6 +271,44 @@ footer {
     font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+    .datos__info > ul > li {
+        font-size: 25px;
+        line-height: 80px;
+    }
+    .datos__infoImg {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .datos__info > ul > li {
+        font-size: 25px;
+    }
+    .datos__infoImg {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .datos__info > ul > li {
+        font-size: 20px;
+        line-height: 90px;
+    }
+    .datos__infoImg {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .datos__info > ul > li {
+        font-size: 25px;
+    }
+    .datos__infoImg {
+        margin-right: 25px;
+    }
+}
+
 @media screen and (max-width: 410px) {
     .datos__infoImg {
         height: 50px;
