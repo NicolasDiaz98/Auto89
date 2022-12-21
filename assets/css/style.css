@@ -435,7 +435,77 @@ footer {
 
 /*INICIO GALERIA*/
 
+.galeria__fotos > img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
 
+.galeria__fotos > video {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+    .galeria__fotos > img {
+        width: 450px;
+        height: 450px;
+    }
+    .galeria__fotos > video {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .galeria__fotos > video {
+        width: 550px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+   
+    .galeria__fotos > video {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .galeria__fotos > img {
+        width: 550px;
+        height: 550px;
+    }
+    .galeria__fotos > video {
+        width: 750px;
+        height: 500px;
+    }
+    .clientes__opiniones > img {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .galeria__fotos > img {
+        width: 500px;
+        height: 500px;
+    }
+    .galeria__fotos > video {
+        width: 750px;
+        height: 500px;
+    }
+    .clientes__opiniones > img {
+        width: 650px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .clientes__opiniones > img {
+        width: 750px;
+    }
+}
 
 /* .galeria {
     width: 90%;
@@ -448,21 +518,9 @@ footer {
     flex-flow: wrap;
 }
 
-.galeria__fotos > img {
-    width: 500px;
-    height: 500px;
-    margin: 20px;
-    object-fit: cover;
-    margin: 30px auto;
-}
 
-.galeria__fotos > video {
-    width: 500px;
-    height: 500px;
-    margin: 20px;
-    object-fit: cover;
-    margin: 30px auto;
-}
+
+
 
 .clientes {
     width: 90%;
