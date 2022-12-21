@@ -47,7 +47,7 @@ footer {
 /*INICIO ENCABEZADO*/
 
 .nav {
-    width: 95%;
+    width: 90%;
 }
 
 .boton__nav {
@@ -309,7 +309,7 @@ footer {
 .titulo {
     font-size: 40px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 
@@ -318,7 +318,7 @@ footer {
 }
 
 .servicios__img > img {
-    height: 400px;
+    height: 300px;
     width: 400px;
 }
 
@@ -335,8 +335,21 @@ footer {
     line-height: 35px;
 }
 
+.p__card--sm {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 35px;
+}
+
 .titulo__h2 {
     font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo__h2--sm {
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -348,58 +361,10 @@ footer {
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-/* 
-.servicios__multimarca {
-    margin-bottom: 150px;
+.seguros__img {
+    width: 200px; 
 }
 
-.servicios__multimarca > h2 {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-
-
-.servicios__equipamiento {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
-    margin-top: 60px;
-}
-
-.titulo__h2 {
-    font-size: 70px;
-    text-align: center;
-    margin-bottom: 100px;
-}
-
-.titulo__h2--chico {
-    font-size: 50px;
-    text-align: center;
-}
-
-.servicios__aseguradoras{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.servicios__aseguradoras > a > img {
-    width: 200px;
-    margin: 20px 20px; 
-} */
 
 @media screen and (min-width: 320px) {
     .titulo {
@@ -434,6 +399,34 @@ footer {
         text-align: center;
         margin-top: 60px;
         margin-bottom: 80px;
+    }
+    .titulo__h2--sm {
+        font-size: 50px;
+    }
+    .titulo__h2--sml {
+        font-size: 35px;
+    }
+    .p__card--sm {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .titulo__h2--sm {
+        font-size: 55px;
+    }
+    .titulo__h2--sml {
+        font-size: 40px;
+    }
+    .p__card--sm {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .servicios__img > img {
+        height: 350px;
+        width: 550px;
     }
 }
 
