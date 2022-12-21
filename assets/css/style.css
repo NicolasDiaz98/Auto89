@@ -507,45 +507,6 @@ footer {
     }
 }
 
-/* .galeria {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 200px;
-}
-
-.galeria__fotos {
-    display: flex;
-    flex-flow: wrap;
-}
-
-
-
-
-
-.clientes {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.clientes > h2 {
-    text-align: center;
-    margin-bottom: 100px;
-    font-size: 60px;
-}
-
-.clientes__opiniones {
-    display: flex;
-    flex-flow: wrap;
-    margin-bottom: 200px;
-}
-
-.clientes__opiniones > img {
-    width: 500px;
-    height: 200px;
-    margin: 20px;
-    margin: 30px auto;
-} */
-
 /*FIN GALERIA*/
 
 
@@ -582,59 +543,18 @@ footer {
 
 /*INICIO CONTACTO*/
 
-.contenedor__contacto {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-evenly;
-}
-
 .titulo--contacto {
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 150px;
+    display: none;
 }
 
-.contacto__formulario {
-    width: 40vw;
-}
-
-.contacto__formulario > h2 {
-    font-size: 40px;
-    font-weight: 100;
-    padding: 30px;
-}
-
-.form__contacto {
-    padding: 30px;
-}
-
-.form__contacto > ul > li > input {
-    width: 400px;
-    height: 60px;
-    font-size: 15px;
-    padding: 10px;
+.contacto__input {
     border: none;
     outline: none;
     border-bottom: 1px solid var(--negro);
-    margin-bottom: 30px;
-}
-
-.form__contacto > ul > li > textarea {
-    width: 400px;
-    height: 120px;
-    font-size: 15px;
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid var(--negro);
-    margin-bottom: 30px;
 }
 
 .boton {
-    min-width: 130px;
+    width: 80%;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
@@ -653,18 +573,28 @@ footer {
     color: #212529
 }
 
-
-.datos__contacto--form {
-    width: 40vw;
+.datos__info > ul > li {
+    font-size: 16px;
 }
 
-.datos__map--contacto {
-    margin: 80px 0;
+@media screen and (min-width: 992px) {
+    .datos__contacto--form {
+        margin-top: 50px;
+    }
 }
 
-.datos__img--contacto {
-    width: 80vw;
+@media screen and (min-width: 1200px) {
+    .titulo--contacto {
+        display: block;
+    }
+    .form__contacto > ul > li {
+        margin-bottom: 50px;
+    }
+    .datos__img {
+        height: 700px;
+    }
 }
+
 
 .bounce-top--contacto {
 	-webkit-animation: bounce-top--contacto 2s both;

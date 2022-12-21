@@ -70,55 +70,73 @@
 <!-- INICIO FORMULARIO -->
         
 
-<main class="contenedor__contacto">
-    <h1 class="titulo titulo--contacto">Contacto</h1>
-    <section>
-        <div class="contacto__formulario">
-            <h2 class="bounce-top--contacto">Contactános</h2>
-            <form class="form__contacto">
-                <ul>
-                    <li>
-                        <input type="text" placeholder="Nombre completo">
-                    </li>
-                    <li>
-                        <input type="email" placeholder="Email">
-                    </li>
-                    <li>
-                        <textarea placeholder="Escriba su mensaje"></textarea>
-                    </li>
-                </ul>
-                <input class="boton" type="button" value="Enviar">
-            </form>
-        </div>
-    </section>
+<main>
+    <h1 class="titulo titulo--contacto text-center">Contacto</h1>
+    <div class="container d-flex flex-wrap justify-content-evenly p-0">
+        <section class="p-0 container col-12 col-lg-6">
+            <div class="contacto__formulario">
+                <h2 class="bounce-top--contacto titulo__h2--sml my-5 text-center">Contactános</h2>
+                <form class="form__contacto container col-12 col-sm-8 col-md-8 col-lg-10 col-xl-12">
+                    <ul class="p-0">
+                        <li>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control contacto__input" id="floatingInput" placeholder="Nombre completo">
+                                <label for="floatingInput">Nombre completo</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-floating my-4">
+                                <input type="email" class="form-control contacto__input" id="floatingInput" placeholder="Email">
+                                <label for="floatingInput">Email</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-floating my-4">
+                                <textarea class="form-control contacto__input" placeholder="Escriba su mensaje..." id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">Mensaje</label>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="row justify-content-center my-5">
+                        <input class="boton" type="button" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+
 
 <!-- FINAL FORMULARIO -->
 
 
 <!-- INICIO MAP-CONTACTO -->
-    <section>
-        <div class="datos__contacto--form">
-            <div class="datos__info">
-                <ul>
-                    <li><img class="datos__infoImg" src="../assets/img/ubicacion.gif"  alt="Ubicación">C. Nació, 5, 08026 Barcelona, España</li>
-                        
-                    <li><img class="datos__infoImg" src="../assets/img/telefono.gif"  alt="Teléfono">934363330</li>
-                        
-                    <li><img class="datos__infoImg" src="../assets/img/telefono.gif"  alt="Teléfono">933479315</li>
-                        
-                    <li><img class="datos__infoImg" src="../assets/img/reloj.gif"  alt="Reloj">Lun - Jue, 8:00 - 19:00 Vie, 8:00 - 16:00</li>
-                        
-                    <li><img class="datos__infoImg" src="../assets/img/mensaje.gif"  alt="Correo">taller@auto89.es</li>
-                </ul>
+        <section class="container p-0 col-12 col-lg-5 col-xl-4 align-items-center">
+            <div class="datos__contacto--form container p-0">
+                <div class="datos__info col-12 col-sm-8 col-md-8 col-lg-12 col-xl-12">
+                    <ul class="p-0">
+                        <li><img class="datos__infoImg my-2" src="../assets/img/ubicacion.gif"  alt="Ubicación">C. Nació, 5, 08026 Barcelona, España</li>
+                            
+                        <li><img class="datos__infoImg my-2" src="../assets/img/telefono.gif"  alt="Teléfono">934363330</li>
+                            
+                        <li><img class="datos__infoImg my-2" src="../assets/img/telefono.gif"  alt="Teléfono">933479315</li>
+                            
+                        <li><img class="datos__infoImg my-2" src="../assets/img/reloj.gif"  alt="Reloj">Lun - Jue, 8:00 - 19:00 Vie, 8:00 - 16:00</li>
+                            
+                        <li><img class="datos__infoImg my-2" src="../assets/img/mensaje.gif"  alt="Correo">taller@auto89.es</li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-            <div class="datos__map--contacto">
-                <iframe class="datos__img datos__img--contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.233237510331!2d2.18405311572421!3d41.41245537926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3285bdb755d%3A0xdf28645780ca59d4!2sAuto%2089!5e0!3m2!1ses-419!2suy!4v1668723501366!5m2!1ses-419!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="container p-0">
+                <div class="datos__map--contacto d-flex row flex-wrap justify-content-evenly my-5">
+                    <h2 class="titulo__h2--sm text-center m-5 col-10">Dónde Estamos</h2>
+                    <div class="container-fluid justify-content-center">
+                        <iframe class="datos__img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.233237510331!2d2.18405311572421!3d41.41245537926188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3285bdb755d%3A0xdf28645780ca59d4!2sAuto%2089!5e0!3m2!1ses-419!2suy!4v1668723501366!5m2!1ses-419!2suy" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </div>
 </main>
 <!-- FINAL MAP-CONTACTO -->
 
