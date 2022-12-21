@@ -71,6 +71,7 @@ footer {
 .titulo--h3 {
     font-size: 35px;
     font-weight: bold;
+    color: var(--blanco);
 }
 
 .nav__barra > li {
@@ -84,26 +85,30 @@ footer {
 
 .nav__a {
     text-decoration: none;
+    color: var(--negro);
+}
+
+.offcanvas-header {
+    background-color: var(--rojo);
 }
 
 .offcanvas-body {
-    background-color: rgb(218, 0, 0);
+    background-color: var(--blanco);
     border-top: solid 1px var(--negro);
+}
+
+.offcanvas-body > ul {
+    margin-bottom: 150px;
 }
 
 .p__nav {
     margin-top: 40px;
     font-size: 16px;
-    color: var(--blanco);
-}
-
-.logo--blanco {
-    margin-top: 100px;
-    height: 80px;
+    color: var(--negro);
 }
 
 .p__nav > a {
-    color: var(--negro);
+    color: var(--rojo);
     font-size: 16px;
 }
 
@@ -165,69 +170,6 @@ footer {
         background: var(--negro);
     }
 }
-
-/*
-
-
-.nav {
-    display: flex;
-    margin: 20px;
-    align-items: center;
-    gap: 100px;
-}
-
-.logo {
-    width: 200px;
-    height: 100px;
-}
-
-
-.nav__barra {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.nav__barra > li > a {
-    display: block;
-    font-family: 'Rajdhani', sans-serif;
-    text-align: center;
-    font-size: 25px;
-}
-
-.nav__a {
-    min-width: 130px;
-    height: 40px;
-    color: var(--blanco);
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 5px;
-    z-index: 0;
-    overflow: hidden;
-    color: var(--negro);
-}
-.nav__a:hover {
-    color: var(--blanco);
-}
-.nav__a:hover:after {
-    height: 100%;
-}
-.nav__a:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    transition: all 0.3s ease;
-    left: 0;
-    bottom: 0;
-    height: 0;
-    width: 100%;
-    background: var(--negro);
-} */
-
 
 /*FIN ENCABEZADO*/
 
@@ -315,36 +257,6 @@ footer {
         width: 50px;
     }
 }
-/* .datos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin-bottom: 150px;
-}
-
-.datos__map > h2 {
-    text-align: center;
-    margin-bottom: 80px;
-    font-size: 50px;
-}
-
-
-
-.datos__contacto > h2 {
-    width: 500px;
-    margin-bottom: 80px;
-    font-size: 50px;
-    text-align: center;
-}
-
-.datos__info > ul > li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 50px;
-    font-size: 25px;
-}
- */
 
 /*FIN MAP-CONTACTO*/
 
@@ -388,36 +300,21 @@ footer {
         width: 80px;
     }
 }
-/*FIN FOOTER*/
 
+/*FIN FOOTER*/
 
 
 /*INICIO SERVICIOS*/
 
-.main__servicios {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-
 .titulo {
-    font-size: 80px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.servicios {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 60px;
 }
 
 .servicios__img {
     width: 400px;
-    margin-bottom: 80px;
 }
 
 .servicios__img > img {
@@ -426,18 +323,37 @@ footer {
 }
 
 .servicios__img > h3 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-top: 20px;
 }
 
-.servicios__img > p {
-    font-size: 25px;
+.p__card {
+    font-size: 20px;
     text-align: center;
     margin-top: 15px;
     line-height: 35px;
 }
 
+.titulo__h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo__h3 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* 
 .servicios__multimarca {
     margin-bottom: 150px;
 }
@@ -448,12 +364,7 @@ footer {
     margin-bottom: 40px;
 }
 
-.servicios__multimarca > p {
-    font-size: 30px;
-    text-align: center;
-    line-height: 50px;
-    margin-bottom: 30px;
-}
+
 
 .servicios__equipamiento {
     display: flex;
@@ -488,6 +399,42 @@ footer {
 .servicios__aseguradoras > a > img {
     width: 200px;
     margin: 20px 20px; 
+} */
+
+@media screen and (min-width: 320px) {
+    .titulo {
+        font-size: 45px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .titulo {
+        font-size: 55px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 65px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titulo {
+        font-size: 75px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
 }
 
 /*FIN SERVICIOS*/
@@ -669,8 +616,8 @@ footer {
 }
 
 .bounce-top--contacto {
-	-webkit-animation: bounce-top--contacto 2s infinite both;
-	        animation: bounce-top--contacto 2s infinite both;
+	-webkit-animation: bounce-top--contacto 2s both;
+	        animation: bounce-top--contacto 2s both;
 }
 @-webkit-keyframes bounce-top--contacto {
     0% {
