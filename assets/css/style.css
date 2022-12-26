@@ -513,31 +513,40 @@ footer {
 /*INICIO QUIENES SOMOS*/
 
 .fondo__qs {
-    background-image: url(../img/fondos/fondo4.jpg);
+    background-image: var(--blanco);
 }
 
 .titulo--blanco {
     color: var(--blanco);
+    margin-bottom: 20px;
 }
 
 .quienes-somos {
-    width: 80%;
-    padding: 10px 35px;
-    margin: 0 auto;
     border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 190px;
-    margin-top: 80px;
+    background-color: var(--negro);
 }
 
 .quienes-somos > p {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 60px;
     color: var(--blanco);
-    text-align: center;
-    margin-bottom: 30px;
 }
 
+@media screen and (min-width: 1200px) {
+    .fondo__qs {
+        background-image: url(../img/fondos/fondo4.jpg);
+    }
+    .quienes-somos {
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.8)
+    }
+    .quienes-somos > p {
+        font-size: 30px;
+    }
+    .titulo--blanco {
+        font-size: 100px;
+    }
+}
 /*FIN QUIENES SOMOS*/
 
 
