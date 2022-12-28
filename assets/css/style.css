@@ -435,7 +435,7 @@ footer {
 
 /*INICIO GALERIA*/
 
-.galeria__fotos > img {
+.galeria__img {
     width: 350px;
     height: 350px;
     object-fit: cover;
@@ -448,9 +448,9 @@ footer {
 }
 
 @media screen and (min-width: 576px) {
-    .galeria__fotos > img {
+    .galeria__img {
         width: 450px;
-        height: 450px;
+        height: 550px;
     }
     .galeria__fotos > video {
         width: 500px;
@@ -459,7 +459,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-
+    .galeria__img {
+        width: 650px;
+        height: 650px;
+    }
     .galeria__fotos > video {
         width: 550px;
         height: 400px;
@@ -467,14 +470,17 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
-   
+    .galeria__img {
+        width: 750px;
+        height: 700px;
+    }
     .galeria__fotos > video {
         width: 500px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .galeria__fotos > img {
+    .galeria__img {
         width: 550px;
         height: 550px;
     }
@@ -488,9 +494,9 @@ footer {
 }
 
 @media screen and (min-width: 1400px) {
-    .galeria__fotos > img {
+    .galeria__img {
         width: 500px;
-        height: 500px;
+        height: 550px;
     }
     .galeria__fotos > video {
         width: 750px;
