@@ -1,0 +1,68 @@
+/*INICIO MAP-CONTACTO*/
+.titulo--h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.datos__img {
+  height: 500px;
+}
+
+.datos__info > ul > li {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .datos__info > ul > li {
+    font-size: 25px;
+    line-height: 80px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .datos__info > ul > li {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .datos__info > ul > li {
+    font-size: 20px;
+    line-height: 90px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .datos__info > ul > li {
+    font-size: 25px;
+  }
+}
+.datos__info .datos__infoImg {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .datos__info .datos__infoImg {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .datos__info .datos__infoImg {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .datos__info .datos__infoImg {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .datos__info .datos__infoImg {
+    margin-right: 25px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .datos__info .datos__infoImg {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/*FIN MAP-CONTACTO*/

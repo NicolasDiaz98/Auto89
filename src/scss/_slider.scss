@@ -1,0 +1,15 @@
+/*INICIO SLIDER*/
+
+@media screen and (max-width: 950px) {
+    .slider--grande {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .slider {
+        display: none;
+    }
+}
+
+/*FIN SLIDER*/

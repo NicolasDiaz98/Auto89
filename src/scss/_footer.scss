@@ -1,0 +1,48 @@
+/*INICIO FOOTER*/
+
+footer {
+    background-color: var(--azuloscuro);
+
+        .footer {
+            ul {
+                li {
+                    &:hover {
+                        color: var(--rojo);
+                    }
+                }
+            }
+
+            .footer__a {
+                font-size: 16px;
+                line-height: 45px;
+                color: var(--blanco);
+            }
+
+            .contenedor__redes {
+                @media screen and (max-width: 476px) {
+                    display: grid;
+                    grid-template-columns: repeat(2, 80px);
+                    grid-template-rows: repeat(2, 80px);
+                }
+
+            .redes__img {
+                @media screen and (max-width: 400px) {
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+            }
+        }
+
+        .footer__p {
+            font-size: 16px;
+            color: var(--blanco);
+
+            > a {
+                color: var(--rojo);
+                font-size: 16px;
+            }
+        }        
+}
+
+/*FIN FOOTER*/
