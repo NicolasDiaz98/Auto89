@@ -1,0 +1,119 @@
+/*INICIO ENCABEZADO*/
+
+.nav {
+    width: 90%;
+
+        .container__boton {
+            @media screen and (min-width: 1199px) {
+                display: none;
+            }
+                .boton__nav {
+                    background-color: var(--blanco);
+                    border: none;
+                    margin-right: 0;
+        
+                        .menu__img {
+                            height: 64px;
+                            width: 64px;
+                        }
+                        @media screen and (max-width: 500px) {
+                                height: 50px;
+                                width: 50px;
+                        }
+                        @media screen and (min-width: 1199px) {
+                                display: none;
+                        }
+        }
+    }
+        
+
+        .offcanvas-header {
+            background-color: var(--rojo);
+                .titulo--h3 {
+                    font-size: 35px;
+                    font-weight: bold;
+                    color: var(--blanco);
+                }
+        }
+        
+        .offcanvas-body {
+            background-color: var(--blanco);
+            border-top: solid 1px var(--negro);
+                > ul {
+                    margin-bottom: 150px;
+                }
+
+            .nav__barra {
+                > li {
+                    font-size: 20px;
+                    line-height: 70px;
+                }
+                .nav__a {
+                    text-decoration: none;
+                    color: var(--negro);
+                    &:hover {
+                        color: var(--negro);
+                    }
+                }
+            }
+
+            .p__nav {
+                margin-top: 40px;
+                font-size: 16px;
+                color: var(--negro);
+                    > a {
+                        color: var(--rojo);
+                        font-size: 16px;
+                    }
+            }
+        }
+        
+        .bar-menu {
+            width: 75%;
+            @media screen and (max-width: 1199px) {
+                    display: none;
+            }
+
+            .nav__barra--grande {
+
+                .nav__a--grande {
+                    min-width: 130px;
+                    height: 40px;
+                    color: var(--blanco);
+                    padding: 5px 10px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    outline: none;
+                    border-radius: 5px;
+                    z-index: 0;
+                    text-decoration: none;
+                    color: var(--negro);
+                    font-family: 'Rajdhani', sans-serif;
+                    text-align: center;
+                    font-size: 25px;
+                    &:hover {
+                        color: var(--blanco);
+                    }
+                    &:hover:after {
+                        height: 100%;
+                    }
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        z-index: -1;
+                        transition: all 0.3s ease;
+                        left: 0;
+                        bottom: 0;
+                        height: 0;
+                        width: 100%;
+                        background: var(--negro);
+                    }
+                }
+            }
+            
+        }
+}
+
+/*FIN ENCABEZADO*/
