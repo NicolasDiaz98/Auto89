@@ -1,0 +1,40 @@
+/*INICIO QUIENES SOMOS*/
+
+.fondo__qs {
+    background-image: var(--blanco);
+
+    @media screen and (min-width: 1200px) {
+            background-image: url(../img/fondos/fondo4.jpg);
+    }
+
+        .quienes-somos {
+            border-radius: 30px;
+            background-color: var(--negro);
+
+            @media screen and (min-width: 1200px) {
+                    border-radius: 30px;
+                    background-color: rgba(0, 0, 0, 0.8)
+            }
+
+            > p {
+                font-size: 20px;
+                line-height: 60px;
+                color: var(--blanco);
+
+                @media screen and (min-width: 1200px) {
+                    font-size: 30px;
+                }
+            }
+
+            .titulo--blanco {
+                color: var(--blanco);
+                margin-bottom: 20px;
+
+                @media screen and (min-width: 1200px) {
+                    font-size: 100px;
+                }
+            }
+        }
+}
+
+/*FIN QUIENES SOMOS*/

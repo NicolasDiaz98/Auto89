@@ -1,0 +1,182 @@
+/*INICIO CONTACTO*/
+
+.titulo--contacto {
+    display: none;
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+    }
+}
+
+.contacto__formulario {
+
+    .bounce-top--contacto {
+        -webkit-animation: bounce-top--contacto 2s both;
+                animation: bounce-top--contacto 2s both;
+    }
+    @-webkit-keyframes bounce-top--contacto {
+        0% {
+          -webkit-transform: translateY(-45px);
+                  transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+                  transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+                  transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+                  transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+                  transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+      }
+      @keyframes bounce-top--contacto {
+        0% {
+          -webkit-transform: translateY(-45px);
+                  transform: translateY(-45px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 1;
+        }
+        24% {
+          opacity: 1;
+        }
+        40% {
+          -webkit-transform: translateY(-24px);
+                  transform: translateY(-24px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        65% {
+          -webkit-transform: translateY(-12px);
+                  transform: translateY(-12px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        82% {
+          -webkit-transform: translateY(-6px);
+                  transform: translateY(-6px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        93% {
+          -webkit-transform: translateY(-4px);
+                  transform: translateY(-4px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        25%,
+        55%,
+        75%,
+        87% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        100% {
+          -webkit-transform: translateY(0px);
+                  transform: translateY(0px);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+    }
+
+    .form__contacto {
+        @media screen and (min-width: 1200px) {
+            > ul {
+                > li {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    
+        .contacto__input {
+            border: none;
+            outline: none;
+            border-bottom: 1px solid var(--negro);
+        }
+    
+        .boton {
+            width: 80%;
+            height: 40px;
+            color: #fff;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border-radius: 5px;
+            border: 2px solid #212529;
+            background: #212529;
+        
+            &:hover {
+                background: #fff;
+                color: #212529
+            }
+        }
+    }
+}
+
+
+
+.datos__contacto--form {
+    @media screen and (min-width: 992px) {
+        margin-top: 50px;
+    }
+
+    .datos__info {
+        > ul {
+            > li {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.datos__img {
+    @media screen and (min-width: 1200px) {
+        height: 700px;
+    }
+}
+
+/*FIN CONTACTO*/
