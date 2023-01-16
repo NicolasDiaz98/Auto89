@@ -1,61 +1,65 @@
 /*INICIO GALERIA*/
-.galeria__fotos {
-    
-    .galeria__img {
-        width: 350px;
-        height: 350px;
-        object-fit: cover;
-    
-
-        @media screen and (min-width: 576px) {
-            width: 450px;
-            height: 550px;
-        }
-        @media screen and (min-width: 768px) {
-            width: 650px;
-            height: 650px;
-        }
-        @media screen and (min-width: 992px) {
-            width: 750px;
-            height: 700px;
-        }
-        @media screen and (min-width: 1200px) {
-            width: 550px;
-            height: 550px;
-        }
-        @media screen and (min-width: 1400px) {
-            width: 550px;
-            height: 550px;
-        }
-    }
-
-    > video {
-        width: 350px;
-        height: 300px;
-        object-fit: cover;
+.galeria {
+    .galeria__fotos {
         
-
-        @media screen and (min-width: 576px) {
-            width: 550px;
-            height: 400px;
+        .galeria__img {
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            
+    
+            @media screen and (min-width: 576px) {
+                width: 450px;
+                height: 550px;
+            }
+            @media screen and (min-width: 768px) {
+                width: 650px;
+                height: 650px;
+            }
+            @media screen and (min-width: 992px) {
+                width: 750px;
+                height: 700px;
+            }
+            @media screen and (min-width: 1200px) {
+                width: 550px;
+                height: 550px;
+            }
+            @media screen and (min-width: 1400px) {
+                width: 550px;
+                height: 550px;
+            }
+            
         }
-        @media screen and (min-width: 768px) {
-            width: 550px;
-            height: 400px;
-        }
-        @media screen and (min-width: 992px) {
-            width: 500px;
-        }
-        @media screen and (min-width: 1200px) {
-            width: 750px;
-            height: 500px;
-        }
-        @media screen and (min-width: 1400px) {
-            width: 750px;
-            height: 500px;
+    
+        > video {
+            width: 350px;
+            height: 300px;
+            object-fit: cover;
+            
+    
+            @media screen and (min-width: 576px) {
+                width: 550px;
+                height: 400px;
+            }
+            @media screen and (min-width: 768px) {
+                width: 550px;
+                height: 400px;
+            }
+            @media screen and (min-width: 992px) {
+                width: 500px;
+            }
+            @media screen and (min-width: 1200px) {
+                width: 750px;
+                height: 500px;
+            }
+            @media screen and (min-width: 1400px) {
+                width: 750px;
+                height: 500px;
+            }
         }
     }
 }
+
 
 .clientes__opiniones {
     > img {
